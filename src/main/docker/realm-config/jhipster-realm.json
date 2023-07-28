@@ -1,7 +1,7 @@
 {
   "id": "jhipster",
   "realm": "jhipster",
-  "displayName": "JHipster",
+  "displayName": "Digital Microservice Registry (DTR)",
   "notBefore": 0,
   "defaultSignatureAlgorithm": "RS256",
   "revokeRefreshToken": false,
@@ -67,7 +67,7 @@
       {
         "id": "ec5705e1-fc1d-4d21-8364-abd3bd4efcd0",
         "name": "ROLE_USER",
-        "description": "Jhipster user role",
+        "description": "ABSA user role",
         "composite": false,
         "clientRole": false,
         "containerId": "jhipster",

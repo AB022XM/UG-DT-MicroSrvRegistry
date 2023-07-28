@@ -10,7 +10,7 @@
     <version>7.4.0</version>
     <packaging>jar</packaging>
     <name>JHipster Registry</name>
-    <description>JHipster service registry, made with Netflix Eureka and Spring Cloud Config</description>
+    <description>Digital Microservice registry, made with Netflix Eureka and Spring Cloud Config</description>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->
@@ -25,7 +25,7 @@
     <properties>
         <!-- Build properties -->
         <maven.version>3.2.5</maven.version>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <node.version>v16.17.0</node.version>
         <npm.version>8.19.1</npm.version>
 
@@ -828,7 +828,7 @@
                         <artifactId>frontend-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>install-node-and-npm</id>
+                                <id>update-node-and-npm</id>
                                 <goals>
                                     <goal>install-node-and-npm</goal>
                                 </goals>
