@@ -8,7 +8,6 @@
 # ===================================================================
 # Standard Spring Boot properties.
 # Full reference is available at:
-# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
 # ===================================================================
@@ -40,4 +39,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://admin:${spring.security.user.password:admin}@eureka-peer-1:8761/eureka/
+      defaultZone: https://admin:${spring.security.user.password:admin}@eureka-peer-1:8761/eureka/

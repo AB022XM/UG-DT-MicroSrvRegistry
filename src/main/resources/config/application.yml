@@ -90,7 +90,7 @@ management:
       enabled: true
   info:
     git:
-      mode: git
+      mode: SIMPLE
     env:
       enabled: true
   health:

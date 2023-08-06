@@ -9,7 +9,7 @@
     <artifactId>jhipster-registry</artifactId>
     <version>7.4.0</version>
     <packaging>jar</packaging>
-    <name>JHipster Registry</name>
+    <name>ABSA Registry</name>
     <description>Digital Microservice registry, made with Netflix Eureka and Spring Cloud Config</description>
 
     <repositories>
@@ -24,10 +24,10 @@
 
     <properties>
         <!-- Build properties -->
-        <maven.version>3.2.5</maven.version>
-        <java.version>17</java.version>
-        <node.version>v16.17.0</node.version>
-        <npm.version>8.19.1</npm.version>
+        <maven.version>3.3.9</maven.version>
+        <java.version>11</java.version>
+        <node.version>v14.15.0</node.version>
+        <npm.version>7.6.0</npm.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

@@ -1,6 +1,6 @@
 {
-  "name": "JHipsterRegistry",
-  "short_name": "JHipsterRegistry",
+  "name": "AbsaRegistry",
+  "short_name": "AbsaRegistry",
   "icons": [
     {
       "src": "./content/images/jhipster_family_member_0_head-192.png",
